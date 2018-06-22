@@ -1,0 +1,28 @@
+{
+    "name": "greeschenko/treeinput",
+    "description": "input from tree-like data structure",
+    "type": "js-plagin",
+    "keywords": ["form","input","tree"],
+    "license": "Apache License",
+    "minimum-stability":"dev",
+    "authors": [
+        {
+            "name": "Oleksiy Hryshchenko",
+            "email": "greeschenko@gmail.com"
+        }
+    ],
+    "require": {
+        "fortawesome/font-awesome": "~4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "greeschenko\\treeinput\\": ""
+        }
+    },
+    "scripts": {
+        "post-update-cmd": [
+        ],
+        "post-install-cmd": [
+        ]
+    }
+}
