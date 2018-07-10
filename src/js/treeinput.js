@@ -46,6 +46,9 @@ class TreeInput {
             self.modal.fadeIn();
             self.wrap.fadeIn();
         });
+        self.el.bind('keydown', function() {
+            return false;
+        });
         self.Tree = new Hata(
             self.tree_el,
             self.itemview, {},
