@@ -11,7 +11,7 @@ class TreeInputAsset extends AssetBundle
         'css/treeinput.min.css?v=0.0.1',
     ];
     public $js = [
-        'js/treeinput.min.js?v=0.0.1',
+        'js/treeinput.min.js?v=0.0.5',
     ];
     public $depends = [
         'yii\web\JqueryAsset',

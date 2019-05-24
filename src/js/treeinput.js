@@ -68,7 +68,7 @@ class TreeInput {
                     let name = $(this);
                     if (!name.hasClass('disabled')) {
                         name.bind('click', function() {
-                            self.el.val(name.html());
+                            self.el.val(name.html()).trigger('change');
                             self.modal.hide();
                             self.wrap.hide();
                         });
@@ -112,7 +112,7 @@ class TreeInput {
                             let name = $(this);
                             if (!name.hasClass('disabled')) {
                                 name.bind('click', function() {
-                                    self.el.val(name.html());
+                                    self.el.val(name.html()).trigger('change');
                                     self.modal.hide();
                                     self.wrap.hide();
                                 });
